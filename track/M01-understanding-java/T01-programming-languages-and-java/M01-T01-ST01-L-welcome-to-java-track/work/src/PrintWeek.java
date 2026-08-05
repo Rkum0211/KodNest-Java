@@ -1,4 +1,4 @@
-public class print week {
+public class PrintWeek {
     public static void main(String[] args) {
         System.out.println("Monday");
         System.out.println("tuesday");
