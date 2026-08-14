@@ -21,9 +21,6 @@ public class Addition {
     double add(double a, double b, double c){
         return a + b + c;
     }
-    
-}
-class CalApplication{
     public static void main(String[] args) {
         Addition a = new Addition();
         System.out.println(a.add(10, 20));
