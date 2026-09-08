@@ -1,17 +1,16 @@
 public class Pgm4 {
-    public static void main(java.lang.String[] args) {
+    public static void main(String[] args) {
     
-        java.lang.String s1 = "Java";
-        java.lang.String s2 = "JaVa";
-        if(s1 == s2){
-            System.out.println("Ref is equal");
+        String s1 = "Java";
+        String s2 = "JaVa";
+        
+        // Comparing content equality using .equals()
+        if (s1.equals(s2)) {
+            System.out.println("Content is equal");
+        } else {
+            System.out.println("Content is not equal");
         }
-        else{
-            System.out.println("Ref is not equal");
-        }
-
         
     }
-    
 }
 
